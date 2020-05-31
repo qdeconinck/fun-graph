@@ -6,7 +6,6 @@ class Drawer:
         dy += list(np.linspace(from_pt[1], to_pt[1], **kwargs))
 
 class ScatterDataGenerator:
-    # TODO dict of list of lists of 2-tuples
     pts_between = {
         "c": [
             [
